@@ -1,0 +1,191 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+ 
+  
+    
+  .big-heading {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: rgb(24, 25, 90);
+    
+
+  }
+.logo{
+    font-family: 'Bungee', cursive;
+}
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-image: url(https://i.insider.com/5aa2ea02a4f4ac1a008b462f?width=1200&format=jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  
+  }
+  
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 20rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(24, 25, 90);
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    color: rgb(24, 25, 90);
+  }
+  
+  .nav-link {
+    font-size: 2rem;
+    font-family: "Montserrat-Light";
+    color: rgb(24, 25, 90);
+  }
+  
+
+  
+ 
+  /* Places Section */
+  
+  #places {
+    position: relative;
+  }
+  
+  .img{
+    width: 450px;
+    height: 300px;
+    padding-right: 50px;
+    padding-left: 70px;
+    padding-top: 12px;
+  }
+  
+  
+  .imgtxt {
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+  }
+  
+ 
+  
+  /* ---About--- */
+  .about{
+      margin-top: 100px;
+  }
+  .heading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px;
+    padding-top: 80px;
+  }
+  .lorem{
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  #about {
+    background-image: url(https://veritaslight.com/wp-content/uploads/2016/04/abstract-light-blue-wallpaper-2643-2827-hd-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  
+  /* Form */
+  .know{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(19, 11, 87);
+    margin-top: 45%;
+    font-family: 'Lexend Mega', sans-serif;
+  
+  }
+  .left{
+    border: rgb(19, 11, 87) solid 2px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image: url(https://cutewallpaper.org/21/aesthetic-soft-blue-wallpapers/soft-blue-Light-blue-aesthetic-Blue-aesthetic-pastel-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .right{
+    width: 90%;
+    height: 550px;
+    font-size: 24px;
+    background:linear-gradient(rgb(180, 236, 255),white,lightblue);
+    border: solid rgb(19, 11, 87) 2px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .form{
+    margin-left: 15px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .submit{
+    width: 200px;
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  .label{
+    margin: 15px;
+  }
+  .input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  /* Footer Section */
+  
+  .fa-envelope{
+      color: black;
+  }
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
